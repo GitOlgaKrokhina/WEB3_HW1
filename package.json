@@ -1,0 +1,20 @@
+{
+  "name": "web3_hw1_krokhina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./client/web3.js",
+  "scripts": {
+    "debug": "node --inspect ./client/web3.js"
+  },
+  "author": "Krokhina Olga",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.18.2"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "web3": "^4.2.0"
+  }
+}
